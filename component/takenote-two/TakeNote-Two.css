@@ -1,0 +1,132 @@
+.takeNoteTwocontainer {
+   width: 45vw;
+   border: 1px solid rgb(70, 51, 51);
+   border-radius: 7px;
+   box-shadow: 1px 1px black;
+   margin: auto;
+   padding: 5px 8px 5px 8px;
+   margin-top:130px;
+}
+.takeNoteTwocontainerSecOne{
+    width: 100%;
+    height: 7vh;
+  /*border: 3px solid rgb(223, 7, 7);*/
+    display: flex;
+    justify-content: space-between;
+    
+}
+.takeNoteTwocontainerSecTwo{
+    width: 100%;
+    height: 7vh;
+    /*border: 1px solid black;*/
+}
+.takeNoteTwocontainerSecThree{
+    width: 100%;
+    align-items: center;
+   /* border: 1px solid black;*/
+    display: flex;
+    justify-content:space-between;
+}
+.takeNoteTwoSubcontainerSecOne{
+    width: 70%;
+    height: 7vh;
+   /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.takeNoteTwoSubcontainerSecTwo{
+    width: 10%;
+    height: 5vh;
+    /*border: 1px solid black;*/
+}
+@media only screen and (min-width:770px)and (max-width: 1024px){
+    .takeNoteTwocontainer {
+        width: 45vw;
+        height:15vh;
+        border: 1px solid rgb(70, 51, 51);
+        border-radius: 7px;
+        box-shadow: 1px 1px black;
+        margin: auto;
+        padding: 5px 8px 5px 8px;
+        margin-top:130px;
+        position: relative;
+        right: 5rem;
+     }
+     .takeNoteTwoSubcontainerSecOne{
+        width: 30vw;
+        height: 5vh;
+       /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom: 30px;
+    }
+    .takeNoteTwoSubcontainerSecTwo{
+        width: 10vw;
+        /* height: 3vh; */
+        /* border: 1px solid black; */
+        position: relative;
+        bottom: 30px;
+    }
+    
+}
+@media only screen and (min-width:481px)and (max-width: 768px){
+    .takeNoteTwocontainer {
+        width: 55vw;
+        height:15vh;
+        border: 1px solid rgb(70, 51, 51);
+        border-radius: 7px;
+        box-shadow: 1px 1px black;
+        margin: auto;
+        padding: 5px 8px 5px 8px;
+        margin-top:130px;
+        position: relative;
+        right: 0rem;
+     }
+     .takeNoteTwoSubcontainerSecOne{
+        width: 30vw;
+        height: 5vh;
+       /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom: 30px;
+    }
+    .takeNoteTwoSubcontainerSecTwo{
+        width: 10vw;
+        /* height: 3vh; */
+        /* border: 1px solid black; */
+        position: relative;
+        bottom: 30px;
+    }
+}
+@media only screen and (min-width:320px)and (max-width: 480px){
+    .takeNoteTwocontainer {
+        width: 75vw;
+        height:15vh;
+        border: 1px solid rgb(70, 51, 51);
+        border-radius: 7px;
+        box-shadow: 1px 1px black;
+        margin: auto;
+        padding: 5px 8px 5px 8px;
+        margin-top:130px;
+        position: relative;
+        left: 5rem;
+     }
+     .takeNoteTwoSubcontainerSecOne{
+        width: 30vw;
+        height: 5vh;
+       /* border: 1px solid black; */
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        bottom: 30px;
+    }
+    .takeNoteTwoSubcontainerSecTwo{
+        width: 10vw;
+        /* height: 3vh; */
+        /* border: 1px solid black; */
+        position: relative;
+        bottom: 30px;
+    }
+}

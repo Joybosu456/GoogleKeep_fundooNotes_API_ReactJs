@@ -1,0 +1,251 @@
+.rootContiner{
+    width: 100vw;
+    /* border:1px solid rgb(236, 75, 75); */
+   /* margin: auto; */
+}
+.mainSection{
+    border:1px solid rgb(32, 24, 24) ;
+    height:80vh ;
+   width: 25vw;
+    border-radius:10px ;
+    margin-top:50px ;
+}
+.sentence{
+    font-size: 30px;
+}
+.signin2{
+    width: 150px;
+    height: 50px;
+   /* border: 1px solid red; */
+    margin-left:470px ;
+   margin-top:  -500px;
+}
+.signintext{
+    height: 40px;
+    width: 200px;
+    margin-left: 430px;
+    margin-top: -30px;
+    /*border: 1px solid red;*/
+}
+/* .textFild{
+    border: 1px solid red;
+    width: 20vw;
+} */
+.n{
+    font-size: 13px;
+}
+.emailorphone{
+    position: relative;
+    gap: 5px;
+    width: 350px;
+    left: 350px;
+    gap: 1rem;  
+}
+
+.pass1{
+    width: 100%;
+    top: 10px;
+}
+.emailorphone1{
+    width: 100%;
+}
+
+.text1{
+    margin-left: 350px;
+}
+.n-text{
+    width: 350px;
+    height: 35px;
+   /*border: 1px solid red;*/
+    margin-left: 350px;
+}
+.f{
+    color: blue;
+}
+.b{
+    width: 400px;
+    height: 35px;
+    /*border: 1px solid red;*/
+    margin-left: 341px;
+    margin-top: -28px;
+}
+.B{
+    color: blue;
+}
+.createAccount{
+    width: 290px;
+    height: 35px;
+    /*border: 1px solid red;*/
+    margin-left: 341px;
+    margin-top: 70px;
+  
+}
+.l{
+    color: blue;
+}
+.signinbutton{
+    width: 80px;
+    height: 40px;
+  /* border: 1px solid red;*/
+   position: relative;
+   left: 250px;
+   top: 12rem;
+}
+
+@media only screen  and (min-width:770px) and (max-width: 1024px) {
+    .mainSection{
+        border:1px solid black ;
+        height:80vh ;
+        width:60vw ;
+        border-radius:10px ;
+        margin-top:50px ;
+    }
+    .section_Two{
+        width: 90%;
+        height: 80%;
+        /* border: 1px solid white; */
+        position: relative;
+        left: 1rem;
+        background: white;
+    }
+    .emailorphone{
+        position: relative;
+        gap: 5px;
+        width: 50%;
+        left: 350px;
+        gap: 1rem;  
+        
+    }
+    
+    .nextButton{
+        width: 50%;
+        position: relative;
+        /* border: 1px solid red; */
+        bottom: 0px;
+        left: 15rem;
+    }
+    .create_account{
+        width: 20vw;
+        height: 35px;
+        /* border: 1px solid red; */
+        /* margin-right: 40px;
+        margin-top: 70px; */
+     
+    }
+
+    }
+
+    @media only screen and (min-width:481px)and (max-width: 768px){
+        .mainSection{
+            border:1px solid black ;
+            height:80vh ;
+            width:70vw ;
+            border-radius:10px ;
+            margin-top:50px ;
+        }
+        .section_Two{
+            width: 100%;
+            height: 80%;
+            /* border: 1px solid white; */
+            position: relative;
+            left: 0rem;
+            background: white;
+        }
+        .nextButton{
+            width: 50%;
+            position: relative;
+            left: 10rem;
+            bottom: 1rem;
+            
+        }
+        .learn_more{
+            /* border: 1px solid red;  */
+            width: 25vw;
+        }
+        .create_account{
+            margin-right: 150px;
+            width:40vw;
+            position: relative;
+            right: 0px;
+            /* border: 1px solid red; */
+           
+        }
+        .emailorphone{
+            position: relative;
+            gap: 5px;
+            width: 50vw;
+            left: 350px;
+            gap: 1rem;  
+            border: 1px solid red;
+        }
+        
+      
+        .forgot{
+            /* border: 1px solid red;  */
+            width: 30vw;
+            position: relative;
+            right: 8px;
+        }
+        .sign_in{
+            position: relative;
+            top: 20px;
+        }
+    }
+    @media only screen and (min-width:320px)and (max-width: 480px){
+        .mainSection{
+            border:1px solid black ;
+            height:80vh ;
+            width:70vw ;
+            border-radius:10px ;
+            margin-top:50px ;
+        }
+        .section_Two{
+            width: 100%;
+            height: 80%;
+            /* border: 1px solid white; */
+            position: relative;
+            left: 0rem;
+            background: white;
+        }
+        .nextButton{
+            width: 50%;
+            position: relative;
+            left: 8rem;
+            bottom: 2rem;
+            
+        }
+        .learn_more{
+            /* border: 1px solid red;  */
+            width: 35vw;
+        }
+        .create_account{
+            margin-right: 150px;
+            width:50vw;
+            position: relative;
+            right: 0px;
+            /* border: 1px solid red; */
+           
+        }
+        .emailorphone{
+            position: relative;
+            gap: 5px;
+            width: 50vw;
+            left: 350px;
+            gap: 1rem;  
+            border: 1px solid red;
+        }
+        
+      
+        .forgot{
+            /* border: 1px solid red;  */
+            width: 50vw;
+            position: relative;
+            right: 8px;
+        }
+        .sign_in{
+            position: relative;
+            top: 20px;
+        }
+    }
+    
+    

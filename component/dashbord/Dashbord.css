@@ -1,0 +1,22 @@
+
+.designTakeNoteThree{
+  /* border: 1px solid red; */
+  /* width: 100vw; */
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  left: 150px;
+}
+@media only screen and (min-width:770px)and (max-width: 1024px) {
+ 
+.designTakeNoteThree{
+  /* border: 1px solid red;  */
+   width: 0;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+}
+@media only screen and (min-width:481px)and (max-width: 768px) {
+      
+      }
